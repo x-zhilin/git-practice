@@ -1,0 +1,149 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f1e8;
+    color: #30251f;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #30251f;
+    margin-left: 25px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 70px 8%;
+    min-height: 550px;
+}
+
+.hero-content {
+    max-width: 500px;
+}
+
+.tagline {
+    color: #a66a38;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 55px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #6b5b50;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background: #754629;
+    color: white;
+    padding: 16px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #4c2c1c;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 480px;
+    border-radius: 20px;
+}
+
+.about {
+    text-align: center;
+    padding: 65px 20px;
+    background: #e9dccb;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.about p {
+    color: #6b5b50;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    font-size: 14px;
+}
+
+@media (max-width: 750px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 7%;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    nav a {
+        margin-left: 10px;
+    }
+}
+
+
+.promo {
+    background: #754629;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.promo h2 {
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.promo p {
+    margin-bottom: 15px;
+}
+
+.promo .button {
+    background: #f7f1e8;
+    color: #30251f;
+}
+
+.promo .button:hover {
+    background: #e9dccb;
+}
+
