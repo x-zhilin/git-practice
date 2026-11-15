@@ -147,3 +147,30 @@ footer {
     background: #e9dccb;
 }
 
+.contact {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f7f1e8;
+}
+
+.contact h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #6b5b50;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.contact .tagline {
+    color: #a66a38;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.contact .button {
+    margin-top: 15px;
+}
+
